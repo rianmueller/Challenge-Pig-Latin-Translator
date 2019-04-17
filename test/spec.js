@@ -18,9 +18,9 @@ describe("Translate to Pig Latin", function () {
 
 describe("Translate to English", function () {
   const translator = new Translator();
-  
+
   it("single word", function () {
-    const result = translator.toPigLatin('elp-Hay');
+    const result = translator.toEnglish('elp-Hay');
     expect(result).to.equal('Help');
   });
 
