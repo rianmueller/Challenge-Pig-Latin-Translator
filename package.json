@@ -1,0 +1,27 @@
+{
+  "name": "Challenge-Pig-Latin-Translator",
+  "version": "1.0.0",
+  "description": "A new alien species has moved to earth and they only speak pig-latin! The president has called you and says that they need your help!",
+  "main": "translator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/Challenge-Pig-Latin-Translator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/Challenge-Pig-Latin-Translator/issues"
+  },
+  "homepage": "https://github.com/devleague/Challenge-Pig-Latin-Translator#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.3"
+  }
+}
