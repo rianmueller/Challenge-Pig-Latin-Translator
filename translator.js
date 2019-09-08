@@ -43,7 +43,7 @@ class Translator {
     // split the string by spaces
     // process each word individually
     // remove "ay" from the end of each word
-    // take all letters before the hyphen and move to the end
+    // take all letters after the hyphen and move to the front
     // remove the hyphen
     // recombine the words into a new string
     let array = string.split(" ");
@@ -55,8 +55,11 @@ class Translator {
         return element.substring(1);
       }
       // if element starts with other than hyphen
-      // move the first letter to the end and recurse
-      return iterator(element.substring(1) + element.substring(0, 1));
+      // move the last letter to the front and recurse
+      return iterator(
+        element.substring(element.length - 1) +
+          element.substring(0, element.length - 1)
+      );
     }
 
     array.forEach(function(element) {
